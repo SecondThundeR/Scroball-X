@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name" translatable="false">Scroball X</string>
+
+    <!-- Strings related to Settings -->
+    <string name="saved_session_key" translatable="false">sessionKey</string>
+
+    <!-- Main window tabs -->
+    <string name="tab_now_playing">Now Playing</string>
+    <string name="tab_history">History</string>
+
+    <!-- Settings menu item -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Enabled players settings -->
+    <string name="pref_header_players">Enabled media players</string>
+    <string name="pref_title_new_players">Scrobble from new players automatically</string>
+
+    <!-- Notification settings -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_group_title_notification_types">Notification types</string>
+    <string name="pref_title_notifications_now_playing">Now Playing</string>
+    <string name="pref_title_notifications_scrobble">Track scrobbled</string>
+    <string name="pref_group_title_notification_settings">Notification settings</string>
+    <string name="pref_title_notification_vibrate">Vibrate</string>
+    <string name="pref_title_notification_sound">Sound</string>
+    <string name="pref_title_notification_light">Light</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="progress_logging_in">Logging in…</string>
+    <string name="error">Error</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    <string name="error_internet">You are not connected to the internet</string>
+    <string name="splash_notification_access">Notification Access required</string>
+    <string name="splash_notification_access_text">The Notification Access permission is required by Scroball to read device playback state.</string>
+    <string name="login_welcome">Welcome to Scroball X</string>
+    <string name="login_desc">Scroball X is an unofficial modification of lightweight scrobbler for Last.fm which can track music playback from almost any media player on Android</string>
+
+    <!-- Strings related to the main screen -->
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="logout_confirm">Logging out will clear any scrobbles which have yet to be submitted. Continue?</string>
+
+    <!-- Strings related to the now playing screen -->
+    <string name="nothing_playing">Nothing playing</string>
+
+    <!-- Strings related to notifications -->
+    <string name="notification_channel_name_scrobble">Scrobbles</string>
+    <string name="notification_channel_name_error">Errors</string>
+    <string name="notification_channel_name_now_playing">Now Playing</string>
+    <string name="authentication_error_title">Scroball X authentication error</string>
+    <string name="authentication_error_content">You have been logged out from
+        Scroball X and scrobbling is paused. Tap here to login.</string>
+    <string name="notification_action_love">Love</string>
+    <string name="notification_action_loved">Loved</string>
+</resources>
