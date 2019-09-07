@@ -56,7 +56,7 @@
         android:textAlignment="center"
         android:gravity="center"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
+        android:textColor="?android:textColorPrimary"
         android:visibility="gone"
         style="@android:style/TextAppearance.Large"/>
 </LinearLayout>

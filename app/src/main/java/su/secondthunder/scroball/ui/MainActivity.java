@@ -5,9 +5,12 @@ import android.os.Bundle;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.tabs.TabLayout;
+
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.preference.PreferenceManager;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -16,6 +19,7 @@ import android.view.MenuItem;
 import com.google.common.collect.ImmutableList;
 import su.secondthunder.scroball.R;
 import su.secondthunder.scroball.ScroballApplication;
+import su.secondthunder.scroball.ui.prefs.ModernPreferenceActivity;
 
 import java.util.List;
 
@@ -32,6 +36,17 @@ public class MainActivity extends AppCompatActivity{
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    switch (Integer.parseInt(PreferenceManager.getDefaultSharedPreferences(this).getString("theme", "0"))) {
+      case 0:
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+        break;
+      case 1:
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        break;
+      case 2:
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        break;
+    }
     setContentView(R.layout.activity_main);
 
     application = (ScroballApplication) getApplication();
@@ -76,7 +91,7 @@ public class MainActivity extends AppCompatActivity{
   public boolean onOptionsItemSelected(MenuItem item) {
     switch (item.getItemId()) {
       case R.id.settings_item:
-        Intent intent = new Intent(getBaseContext(), SettingsActivity.class);
+        Intent intent = new Intent(getBaseContext(), ModernPreferenceActivity.class);
         startActivityForResult(intent, 1);
         return true;
       case R.id.logout_item:

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="players"
+        android:icon="@drawable/ic_play_circle_outline"
+        android:title="@string/pref_header_players" />
+    <Preference
+        android:key="notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+    <ListPreference
+        android:entryValues="@array/theme_internal"
+        android:entries="@array/theme_frontend"
+        android:icon="@drawable/outline_brightness_2_24"
+        android:key="theme"
+        android:defaultValue="0"
+        android:title="@string/pref_header_dark_theme" />
+</PreferenceScreen>

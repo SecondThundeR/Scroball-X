@@ -22,7 +22,7 @@
             android:ellipsize="end"
             android:maxLines="1"
             android:text="Title"
-            android:textColor="@android:color/black"
+            android:textColor="?android:textColorPrimary"
             android:textStyle="bold" />
         <TextView
             android:id="@+id/scrobble_history_item_artist"

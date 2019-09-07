@@ -25,6 +25,8 @@
     <string name="pref_title_notification_sound">Sound</string>
     <string name="pref_title_notification_light">Light</string>
 
+    <string name="pref_header_dark_theme">App theme</string>
+
     <!-- Strings related to login -->
     <string name="title_activity_login">Sign in</string>
     <string name="action_sign_in">Sign in</string>

@@ -49,10 +49,17 @@
             android:theme="@style/AppTheme">
         </activity>
         <activity
-            android:name="su.secondthunder.scroball.ui.SettingsActivity"
+            android:name="su.secondthunder.scroball.ui.prefs.ModernPreferenceActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName="su.secondthunder.scroball.ui.MainActivity">
-        </activity>
+            android:parentActivityName="su.secondthunder.scroball.ui.MainActivity" />
+        <activity
+            android:name="su.secondthunder.scroball.ui.prefs.NotificationPreferenceActivity"
+            android:label="@string/pref_header_notifications"
+            android:parentActivityName="su.secondthunder.scroball.ui.prefs.ModernPreferenceActivity" />
+        <activity
+            android:name="su.secondthunder.scroball.ui.prefs.PlayerPreferenceActivity"
+            android:label="@string/pref_header_players"
+            android:parentActivityName="su.secondthunder.scroball.ui.prefs.ModernPreferenceActivity" />
     </application>
 
 </manifest>
