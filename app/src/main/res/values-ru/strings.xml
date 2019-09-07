@@ -21,7 +21,11 @@
     <string name="pref_title_notification_sound">Звук</string>
     <string name="pref_title_notification_light">Световой индикатор</string>
 
+    <!-- Strings related to app theme -->
     <string name="pref_header_dark_theme">Тема приложения</string>
+    <string name="pref_auto">Автоматически</string>
+    <string name="pref_light_theme">Светлая</string>
+    <string name="pref_dark_theme">Тёмная</string>
 
     <!-- Strings related to login -->
     <string name="title_activity_login">Войти в профиль</string>
@@ -31,9 +35,10 @@
     <string name="error_unknown">Произошла неизвестная ошибка</string>
     <string name="error_internet">Вы не подключены к Интернету</string>
     <string name="splash_notification_access">Требуется доступ к уведомлениям</string>
-    <string name="splash_notification_access_text">Для чтения состояния воспроизведения устройства Scroball требуется разрешение на доступ к уведомлениям.</string>
+    <string name="splash_notification_access_text">Для чтения состояния воспроизведения устройства Scroball X требуется разрешение на доступ к уведомлениям.</string>
     <string name="login_welcome">Приветствуем в Scroball X</string>
-    <string name="login_desc">Scroball X - это неофициальная модификация облегченного скробблера для Last.fm, которая может отслеживать воспроизведение музыки практически с любого медиаплеера на Android</string>
+    <string name="login_desc">Scroball X - это неофициальная модификация облегченного скробблера для last.fm для Android
+        \nДля начала работы, необходимо войти в ваш профиль last.fm</string>
 
     <!-- Strings related to the main screen -->
     <string name="settings">Настройки</string>
@@ -43,13 +48,17 @@
 
     <!-- Strings related to the now playing screen -->
     <string name="nothing_playing">Сейчас ничего не играет</string>
+    <string name="nothing_playing_desc">Пора послушать какую-то музыку</string>
+    <string name="track">Трэк</string>
+    <string name="album">Артист • Альбом</string>
+    <string name="albumart_desc">Обложка альбома</string>
 
     <!-- Strings related to notifications -->
     <string name="notification_channel_name_scrobble">Скробблинги</string>
     <string name="notification_channel_name_error">Ошибки</string>
     <string name="notification_channel_name_now_playing">Сейчас играет</string>
     <string name="authentication_error_title">Ошибка аутентификации Scroball X</string>
-    <string name="authentication_error_content">Вы вышли из Scroball X и скробблинг был прекращён. Нажмите здесь для входа.</string>
+    <string name="authentication_error_content">Вы вышли из аккаунта и скробблинг был прекращён. Нажмите здесь для повторного входа.</string>
     <string name="notification_action_love">Лайкнуть</string>
     <string name="notification_action_loved">Лайкнуто</string>
 </resources>

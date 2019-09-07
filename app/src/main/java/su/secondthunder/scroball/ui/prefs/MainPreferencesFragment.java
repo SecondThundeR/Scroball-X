@@ -29,13 +29,13 @@ public class MainPreferencesFragment extends PreferenceFragmentCompat {
             return true;
         });
         findPreference("notifications").setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent(getActivity(), NotificationPreferencesFragment.class);
+            Intent intent = new Intent(getActivity(), NotificationPreferenceActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             return false;
         });
         findPreference("players").setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent(getActivity(), PlayerPreferencesFragment.class);
+            Intent intent = new Intent(getActivity(), PlayerPreferenceActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             return false;

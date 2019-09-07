@@ -25,7 +25,11 @@
     <string name="pref_title_notification_sound">Sound</string>
     <string name="pref_title_notification_light">Light</string>
 
+    <!-- Strings related to app theme -->
     <string name="pref_header_dark_theme">App theme</string>
+    <string name="pref_auto">Automatically</string>
+    <string name="pref_light_theme">Light</string>
+    <string name="pref_dark_theme">Dark</string>
 
     <!-- Strings related to login -->
     <string name="title_activity_login">Sign in</string>
@@ -35,9 +39,10 @@
     <string name="error_unknown">An unknown error occurred</string>
     <string name="error_internet">You are not connected to the internet</string>
     <string name="splash_notification_access">Notification Access required</string>
-    <string name="splash_notification_access_text">The Notification Access permission is required by Scroball to read device playback state.</string>
+    <string name="splash_notification_access_text">The Notification Access permission is required by Scroball X to read device playback state.</string>
     <string name="login_welcome">Welcome to Scroball X</string>
-    <string name="login_desc">Scroball X is an unofficial modification of lightweight scrobbler for Last.fm which can track music playback from almost any media player on Android</string>
+    <string name="login_desc">Scroball X is an unofficial modification of lightweight scrobbler for last.fm for Android
+        \nTo get started, you must log in to your last.fm profile</string>
 
     <!-- Strings related to the main screen -->
     <string name="settings">Settings</string>
@@ -47,6 +52,10 @@
 
     <!-- Strings related to the now playing screen -->
     <string name="nothing_playing">Nothing playing</string>
+    <string name="nothing_playing_desc">It\'s time to listen to some music</string>
+    <string name="track">Track</string>
+    <string name="album">Artist • Album</string>
+    <string name="albumart_desc">Album cover</string>
 
     <!-- Strings related to notifications -->
     <string name="notification_channel_name_scrobble">Scrobbles</string>
@@ -54,7 +63,7 @@
     <string name="notification_channel_name_now_playing">Now Playing</string>
     <string name="authentication_error_title">Scroball X authentication error</string>
     <string name="authentication_error_content">You have been logged out from
-        Scroball X and scrobbling is paused. Tap here to login.</string>
+        last.fm and scrobbling is paused. Tap here to re-login.</string>
     <string name="notification_action_love">Love</string>
     <string name="notification_action_loved">Loved</string>
 </resources>

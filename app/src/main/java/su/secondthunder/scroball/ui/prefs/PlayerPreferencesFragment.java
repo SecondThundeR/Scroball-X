@@ -19,7 +19,7 @@ import su.secondthunder.scroball.R;
 public class PlayerPreferencesFragment extends PreferenceFragmentCompat {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        setPreferencesFromResource(R.xml.pref_notification, rootKey);
+        setPreferencesFromResource(R.xml.pref_players, rootKey);
 
         SharedPreferences sharedPreferences = this.getPreferenceManager().getSharedPreferences();
         Set<String> prefKeys = sharedPreferences.getAll().keySet();

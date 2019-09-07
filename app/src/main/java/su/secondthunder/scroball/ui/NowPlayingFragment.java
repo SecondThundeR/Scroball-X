@@ -28,6 +28,7 @@ public class NowPlayingFragment extends Fragment {
   private TextView titleTextView;
   private TextView artistTextView;
   private TextView nothingPlayingTextView;
+  private TextView nothingPlayingDescTextView;
 
   @Override
   public View onCreateView(
@@ -38,6 +39,7 @@ public class NowPlayingFragment extends Fragment {
     titleTextView = (TextView) rootView.findViewById(R.id.now_playing_title);
     artistTextView = (TextView) rootView.findViewById(R.id.now_playing_artist);
     nothingPlayingTextView = (TextView) rootView.findViewById(R.id.now_playing_nothing_playing);
+    nothingPlayingDescTextView = (TextView) rootView.findViewById(R.id.now_playing_nothing_playing_desc);
     return rootView;
   }
 
@@ -67,7 +69,7 @@ public class NowPlayingFragment extends Fragment {
     if (track.isValid()) {
       String artistText = track.artist();
       if (track.album().isPresent()) {
-        artistText = String.format("%s — %s", track.artist(), track.album().get());
+        artistText = String.format("%s • %s", track.artist(), track.album().get());
       }
 
       titleTextView.setText(track.track());
@@ -86,9 +88,11 @@ public class NowPlayingFragment extends Fragment {
 
       detailGroup.setVisibility(View.VISIBLE);
       nothingPlayingTextView.setVisibility(View.GONE);
+      nothingPlayingDescTextView.setVisibility(View.GONE);
     } else {
       detailGroup.setVisibility(View.GONE);
       nothingPlayingTextView.setVisibility(View.VISIBLE);
+      nothingPlayingDescTextView.setVisibility(View.VISIBLE);
     }
   }
 }

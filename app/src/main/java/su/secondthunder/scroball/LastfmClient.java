@@ -26,7 +26,7 @@ import de.umass.lastfm.scrobble.ScrobbleResult;
  * Client for accessing the Last.fm API.
  *
  * <p>Acts as a wrapper around the client in {@link de.umass.lastfm}, providing asynchronous methods
- * and transforming between the Scroball and internal API data types.
+ * and transforming between the Scroball X and internal API data types.
  */
 public class LastfmClient {
 

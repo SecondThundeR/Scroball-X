@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="theme_frontend">
-        <item>Автоматически</item>
-        <item>Светлая</item>
-        <item>Темная</item>
+        <item>@string/pref_auto</item>
+        <item>@string/pref_light_theme</item>
+        <item>@string/pref_dark_theme</item>
     </string-array>
 </resources>
