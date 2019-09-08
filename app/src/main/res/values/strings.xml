@@ -66,4 +66,15 @@
         last.fm and scrobbling is paused. Tap here to re-login.</string>
     <string name="notification_action_love">Love</string>
     <string name="notification_action_loved">Loved</string>
+
+    <!-- Strings related to alert dialog about app -->
+    <string name="pref_header_about_app">About app</string>
+    <string name="app_name_pref">Scroball X 2.2 (build 6)</string>
+    <string name="app_name_alert">Scroball X</string>
+    <string name="app_desc">This is a modification of Scroball by Peter Josling that aims at visual changes.
+\n\nThis mod provides an ad-free experience, a more perfect design with guidelines of Material Design 2, a dark theme and other visual improvements
+\n\nThe developers of the mod are not responsible for the problems on the backend side (Connections to last.fm, scrobbler operation, etc.)</string>
+    <string name="mod_devs">Developers: @SecondThundeR / @iTaysonLab</string>
+    <string name="alert_close">Close</string>
+    <string name="app_logo">App Logo</string>
 </resources>

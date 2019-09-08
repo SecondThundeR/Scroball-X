@@ -15,4 +15,9 @@
         android:key="theme"
         android:defaultValue="0"
         android:title="@string/pref_header_dark_theme" />
+    <Preference
+        android:key="about_app"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="@string/pref_header_about_app"
+        android:summary="@string/app_name_pref"/>
 </PreferenceScreen>

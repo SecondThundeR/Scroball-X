@@ -19,8 +19,7 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="16dp"
             app:cardCornerRadius="16dp"
-            app:cardElevation="24dp"
-            app:cardMaxElevation="12dp">
+            app:cardElevation="16dp">
 
             <ImageView
                 android:id="@+id/now_playing_art"
@@ -50,7 +49,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/now_playing_title"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="4dp"
             android:layout_marginRight="8dp"
             android:text="@string/album"
             android:textAlignment="center" />
