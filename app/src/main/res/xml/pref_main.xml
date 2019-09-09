@@ -16,6 +16,10 @@
         android:defaultValue="0"
         android:title="@string/pref_header_dark_theme" />
     <Preference
+        android:key="clear_adapter"
+        android:icon="@drawable/ic_clear_all_outline_black_24dp"
+        android:title="@string/pref_header_clear_listview" />
+    <Preference
         android:key="about_app"
         android:icon="@drawable/ic_info_outline_black_24dp"
         android:title="@string/pref_header_about_app"

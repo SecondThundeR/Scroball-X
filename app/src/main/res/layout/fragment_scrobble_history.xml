@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="su.secondthunder.scroball.ui.ScrobbleHistoryFragment">
 
     <ListView
         android:id="@+id/scrobble_history_list_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:divider="@null"/>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:divider="@null"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/no_history"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_history"
+        android:layout_marginBottom="4dp"
+        android:textAlignment="center"
+        android:textColor="?android:textColorPrimary"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/no_history_desc"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/no_history_desc"
+        android:textAlignment="center"
+        android:textColor="?android:textColorSecondary"
+        android:visibility="gone" />
+</LinearLayout>

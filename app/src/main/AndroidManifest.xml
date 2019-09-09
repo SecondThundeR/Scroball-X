@@ -50,7 +50,7 @@
         </activity>
         <activity
             android:name="su.secondthunder.scroball.ui.prefs.ModernPreferenceActivity"
-            android:label="@string/title_activity_settings"
+            android:label="@string/settings"
             android:parentActivityName="su.secondthunder.scroball.ui.MainActivity" />
         <activity
             android:name="su.secondthunder.scroball.ui.prefs.NotificationPreferenceActivity"

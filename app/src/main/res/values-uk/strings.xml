@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Виберіть на головному екрані -->
+    <string name="tab_now_playing">Зараз грає</string>
+    <string name="tab_history">Історія</string>
+
+    <!-- Текст для тулбару налаштувань -->
+    <string name="settings">Налаштування</string>
+
+    <!-- Налаштування включених плеєрів -->
+    <string name="pref_header_players">Включені медіаплеєри</string>
+    <string name="pref_title_new_players">Виконувати скробблінг з виявлених плеєрів автоматично</string>
+
+    <!-- Налаштування повідомлень -->
+    <string name="pref_header_notifications">Повідомлення</string>
+    <string name="pref_group_title_notification_types">Типи повідомлень</string>
+    <string name="pref_title_notifications_scrobble">Всього заскробблено</string>
+    <string name="pref_group_title_notification_settings">Налаштування повідомлень</string>
+    <string name="pref_title_notification_vibrate">Вібрація</string>
+    <string name="pref_title_notification_sound">Звук</string>
+    <string name="pref_title_notification_light">LED-індикатор</string>
+
+    <!-- Налаштування теми -->
+    <string name="pref_header_dark_theme">Тема програми</string>
+    <string name="pref_auto">Автоматично</string>
+    <string name="pref_light_theme">Світла</string>
+    <string name="pref_dark_theme">Темна</string>
+
+    <!-- Очищення історії -->
+    <string name="pref_header_clear_listview">Очистити історію прослуховування</string>
+    <string name="clear_listview_question">Ви правда хочете очистити історію прослуханого?</string>
+    <string name="pref_header_clear_listview_item">Очистити</string>
+    <string name="clear_listview_item_question">Ви правда хочете очистити трек з історії прослуханого?</string>
+    <string name="info_toast">На жаль, функція поки знаходиться в розробці :(</string>
+
+    <!-- Вхід (В програму / профіль) -->
+    <string name="title_activity_login">Увійти в профіль</string>
+    <string name="action_sign_in">Увійти</string>
+    <string name="progress_logging_in">Виконується вхід…</string>
+    <string name="error">Помилка</string>
+    <string name="error_unknown">Виникла невідома помилка</string>
+    <string name="error_internet">Ви не підключені до Інтернету</string>
+    <string name="splash_notification_access">Потрібно доступ до повідомлень</string>
+    <string name="splash_notification_access_text">Для читання стану відтворення пристрою Scroball X потрібен дозвіл на доступ до повідомлень.</string>
+    <string name="login_welcome">Вітаємо в Scroball X</string>
+    <string name="login_desc">Scroball X - це неофіційна модифікація полегшеного скроблер для last.fm для Android
+        \nДля початку роботи, необхідно увійти в ваш профіль last.fm</string>
+
+
+    <!-- Вихід з програми -->
+    <string name="logout">Вийти з профілю</string>
+    <string name="are_you_sure">Ви впевнені?</string>
+    <string name="logout_confirm">Після виходу з системи ви не зможете передавати інформацію про скробблінг. Продовжити?</string>
+
+    <!-- Екран - Cейчас грає -->
+    <string name="nothing_playing">Зараз нічого не грає</string>
+    <string name="nothing_playing_desc">Пора послухати якусь музику</string>
+    <string name="track">Пісня</string>
+    <string name="album">Артист • Альбом</string>
+    <string name="albumart_desc">Обкладинка альбому</string>
+
+    <!-- Екран - Історія -->
+    <string name="no_history">Історія порожня</string>
+    <string name="no_history_desc">Скоро тут буде все, що ви прослухали</string>
+
+    <!-- Рядки для повідомлення -->
+    <string name="notification_channel_name_scrobble">Скробблінгі</string>
+    <string name="notification_channel_name_error">Помилки</string>
+    <string name="authentication_error_title">Помилка аутентифікації Scroball X</string>
+    <string name="authentication_error_content">Ви вийшли з облікового запису і скробблінг був припинений. Натисніть тут для повторного входу.</string>
+    <string name="notification_action_love">Лайкнути</string>
+    <string name="notification_action_loved">Улюблена</string>
+
+    <!-- Рядки для діалогового вікна "Про програму" -->
+    <string name="pref_header_about_app">Про програму</string>
+    <string name="app_name_pref">Scroball X 2.3 (збірка 7)</string>
+    <string name="app_desc">Це модифікація Scroball від Peter Josling, яка націлена на візуальні зміни В даному моді вирізана реклама, доданий більш досконалий дизайн в стилі Material Design 2, впроваджена темна тема і виконані інші візуальні виправлення Розробники мода не відповідають за проблеми на стороні бекенд (Підключення до last. fm, робота скроблер та інше)</string>
+    <string name="mod_devs">Розробники: <a href="https:t.me/SecondThundeR">@SecondThundeR</a> / <a href="https:t.me/iTaysonLab">@iTaysonLab</a></string>
+    <string name="alert_close">Закрити</string>
+    <string name="app_logo">Лого програми</string>
+
+</resources>

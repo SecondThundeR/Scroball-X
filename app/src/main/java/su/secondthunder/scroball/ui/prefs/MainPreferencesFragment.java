@@ -2,20 +2,18 @@ package su.secondthunder.scroball.ui.prefs;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.LinearLayout;
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-
 import su.secondthunder.scroball.R;;
 
 public class MainPreferencesFragment extends PreferenceFragmentCompat {
+
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.pref_main, rootKey);
@@ -46,7 +44,19 @@ public class MainPreferencesFragment extends PreferenceFragmentCompat {
             startActivity(intent);
             return false;
         });
+        findPreference("clear_adapter").setOnPreferenceClickListener(preference -> {
+            new MaterialAlertDialogBuilder(getContext())
+                    .setTitle(R.string.pref_header_clear_listview)
+                    .setMessage(R.string.clear_listview_question)
+                    .setNegativeButton(android.R.string.no, null)
+                    .show();
+            return false;
+        });
         findPreference("about_app").setOnPreferenceClickListener(preference -> {
+            // TODO: Fix findViewById
+            TextView mod_devs = (TextView)getActivity().findViewById(R.id.mod_devs);
+            mod_devs.setText(R.string.mod_devs);
+            mod_devs.setMovementMethod(LinkMovementMethod.getInstance());
             new MaterialAlertDialogBuilder(getContext())
                     .setTitle(R.string.pref_header_about_app)
                     .setView(R.layout.about_app_dialog)

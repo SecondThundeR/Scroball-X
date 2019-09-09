@@ -92,7 +92,7 @@ public class ScrobbleNotificationManager {
       NotificationChannel nowPlayingChannel =
           new NotificationChannel(
               CHANNEL_ID_NOW_PLAYING,
-              context.getString(R.string.notification_channel_name_now_playing),
+              context.getString(R.string.tab_now_playing),
               NotificationManager.IMPORTANCE_DEFAULT);
 
       notificationManager.createNotificationChannels(

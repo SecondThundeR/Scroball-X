@@ -7,7 +7,7 @@
         <SwitchPreference
             android:defaultValue="true"
             android:key="notifications_now_playing"
-            android:title="@string/pref_title_notifications_now_playing"/>
+            android:title="@string/tab_now_playing"/>
 
         <SwitchPreference
             android:defaultValue="true"
