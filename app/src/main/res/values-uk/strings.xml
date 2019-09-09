@@ -30,7 +30,8 @@
     <string name="pref_header_clear_listview">Очистити історію прослуховування</string>
     <string name="clear_listview_question">Ви правда хочете очистити історію прослуханого?</string>
     <string name="pref_header_clear_listview_item">Очистити</string>
-    <string name="clear_listview_item_question">Ви правда хочете очистити трек з історії прослуханого?</string>
+    <string name="clear_listview_item_question">Ви правда хочете очистити трек з історії прослуханого?
+    \nПрограма перезапуститься автоматично</string>
     <string name="info_toast">На жаль, функція поки знаходиться в розробці :(</string>
 
     <!-- Вхід (В програму / профіль) -->

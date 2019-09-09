@@ -1,7 +1,6 @@
 package su.secondthunder.scroball.ui.prefs;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
@@ -12,6 +11,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
 import su.secondthunder.scroball.R;
 import su.secondthunder.scroball.db.ScroballDB;
 
@@ -58,6 +58,10 @@ public class MainPreferencesFragment extends PreferenceFragmentCompat {
                             android.R.string.yes,
                             (dialog, whichButton) -> {
                                 getScroballDB().clear();
+                                Intent restartIntent = getContext().getPackageManager()
+                                        .getLaunchIntentForPackage(getContext().getPackageName());
+                                restartIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                startActivity(restartIntent);
                             })
                     .setNegativeButton(android.R.string.no, null)
                     .show();

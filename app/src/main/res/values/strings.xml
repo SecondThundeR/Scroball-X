@@ -29,9 +29,10 @@
 
     <!-- ListView settings -->
     <string name="pref_header_clear_listview">Clear listening history</string>
-    <string name="clear_listview_question">Do you really want to clear your listening history?</string>
+    <string name="clear_listview_question">Do you really want to clear your listening history?/n</string>
     <string name="pref_header_clear_listview_item">Clear</string>
-    <string name="clear_listview_item_question">Do you really want to clear track from listening history?</string>
+    <string name="clear_listview_item_question">Do you really want to clear track from listening history?
+    \nApp will be rebooted automatically</string>
     <string name="info_toast">Unfortunately, the function is still under development :(</string>
 
     <!-- Strings related to login -->
@@ -44,7 +45,8 @@
     <string name="splash_notification_access">Notification Access required</string>
     <string name="splash_notification_access_text">The Notification Access permission is required by Scroball X to read device playback state.</string>
     <string name="login_welcome">Welcome to Scroball X</string>
-    <string name="login_desc">Scroball X is an unofficial modification of lightweight scrobbler for last.fm for Android          To get started, you must log in to your last.fm profile</string>
+    <string name="login_desc">Scroball X is an unofficial modification of lightweight scrobbler for last.fm for Android
+        \nTo get started, you must log in to your last.fm profile</string>
 
     <!-- Strings related to the main screen -->
     <string name="settings">Settings</string>

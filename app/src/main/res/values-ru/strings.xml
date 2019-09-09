@@ -30,7 +30,8 @@
     <string name="pref_header_clear_listview">Очистить историю прослушивания</string>
     <string name="clear_listview_question">Вы правда хотите очистить историю прослушанного?</string>
     <string name="pref_header_clear_listview_item">Очистить</string>
-    <string name="clear_listview_item_question">Вы правда хотите очистить трек из истории прослушанного?</string>
+    <string name="clear_listview_item_question">Вы правда хотите очистить трек из истории прослушанного?
+    \nПриложение будет перезапущено автоматически</string>
     <string name="info_toast">К сожалению, функция пока находится в разработке :(</string>
 
     <!-- Вход (В приложение/профиль) -->
