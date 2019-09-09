@@ -1,8 +1,10 @@
 package su.secondthunder.scroball.ui.prefs;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatDelegate;
@@ -10,13 +12,17 @@ import androidx.preference.ListPreference;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import su.secondthunder.scroball.R;;
+import su.secondthunder.scroball.R;
+import su.secondthunder.scroball.db.ScroballDB;
 
 public class MainPreferencesFragment extends PreferenceFragmentCompat {
+
+    private ScroballDB scroballDB;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.pref_main, rootKey);
+        scroballDB = new ScroballDB();
         findPreference("theme").setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
         findPreference("theme").setOnPreferenceChangeListener((preference, newValue) -> {
             switch (Integer.parseInt((String) newValue)) {
@@ -48,21 +54,30 @@ public class MainPreferencesFragment extends PreferenceFragmentCompat {
             new MaterialAlertDialogBuilder(getContext())
                     .setTitle(R.string.pref_header_clear_listview)
                     .setMessage(R.string.clear_listview_question)
+                    .setPositiveButton(
+                            android.R.string.yes,
+                            (dialog, whichButton) -> {
+                                getScroballDB().clear();
+                            })
                     .setNegativeButton(android.R.string.no, null)
                     .show();
             return false;
         });
         findPreference("about_app").setOnPreferenceClickListener(preference -> {
-            // TODO: Fix findViewById
-            TextView mod_devs = (TextView)getActivity().findViewById(R.id.mod_devs);
+            View view = getLayoutInflater().inflate(R.layout.about_app_dialog, null);
+            TextView mod_devs = view.findViewById(R.id.mod_devs);
             mod_devs.setText(R.string.mod_devs);
             mod_devs.setMovementMethod(LinkMovementMethod.getInstance());
             new MaterialAlertDialogBuilder(getContext())
                     .setTitle(R.string.pref_header_about_app)
-                    .setView(R.layout.about_app_dialog)
+                    .setView(view)
                     .setNegativeButton(R.string.alert_close, null)
                     .show();
             return false;
         });
+    }
+
+    public ScroballDB getScroballDB() {
+        return scroballDB;
     }
 }

@@ -15,6 +15,8 @@ import com.raizlabs.android.dbflow.sql.language.SQLite;
 
 import java.util.List;
 
+import static su.secondthunder.scroball.db.ScrobbleLogEntry_Table.track;
+
 /** FlowDB database to store scrobble history and pending scrobbles for the application. */
 @Database(name = ScroballDB.NAME, version = ScroballDB.VERSION)
 public class ScroballDB {
@@ -182,6 +184,10 @@ public class ScroballDB {
   /** Clears all {@link Scrobble} and {@link PlaybackItem}s from the database. */
   public void clear() {
     Delete.tables(ScrobbleLogEntry.class, PendingPlaybackItemEntry.class);
+  }
+
+  /** TODO Clearing one item */
+  public void clearItem(long id) {
   }
 
   private List<Scrobble> scrobbleEntriesToScrobbles(List<ScrobbleLogEntry> entries) {
