@@ -28,11 +28,10 @@
 
     <!-- Очистка истории -->
     <string name="pref_header_clear_listview">Очистить историю прослушивания</string>
-    <string name="clear_listview_question">Вы правда хотите очистить историю прослушанного?</string>
+    <string name="clear_listview_question">Вы правда хотите очистить историю прослушанного?
+        \nПриложение будет перезапущено автоматически</string>
     <string name="pref_header_clear_listview_item">Очистить</string>
-    <string name="clear_listview_item_question">Вы правда хотите очистить трек из истории прослушанного?
-    \nПриложение будет перезапущено автоматически</string>
-    <string name="info_toast">К сожалению, функция пока находится в разработке :(</string>
+    <string name="clear_listview_item_question">Вы правда хотите очистить трек из истории прослушанного?</string>
 
     <!-- Вход (В приложение/профиль) -->
     <string name="title_activity_login">Войти в профиль</string>
@@ -73,8 +72,10 @@
 
     <!-- Строки для диалогового окна "О приложении" -->
     <string name="pref_header_about_app">О приложении</string>
-    <string name="app_name_pref">Scroball X 2.3 (сборка 7)</string>
-    <string name="app_desc">Это модификация Scroball от Peter Josling, которая нацелена на визуальные изменения   В данном моде вырезана реклама, добавлен более совершенный дизайн в стилях Material Design 2, внедрена тёмная тема и выполнены прочие визуальные исправления   Разработчики мода не отвечают за проблемы на стороне бэкенда (Подключения к last.fm, работа скробблера и прочее)</string>
+    <string name="app_name_pref">Scroball X 2.3</string>
+    <string name="app_desc">Это модификация Scroball от Peter Josling, которая нацелена на визуальные изменения
+        \n\nВ данном моде вырезана реклама, добавлен более совершенный дизайн в стилях Material Design 2, внедрена тёмная тема и выполнены прочие визуальные исправления
+        \n\nРазработчики мода не отвечают за проблемы на стороне бэкенда (Подключения к last.fm, работа скробблера и прочее)</string>
     <string name="mod_devs">Разработчики: <a href='https:t.me/SecondThundeR'>@SecondThundeR</a> / <a href='https:t.me/iTaysonLab'>@iTaysonLab</a></string>
     <string name="alert_close">Закрыть</string>
     <string name="app_logo">Лого приложения</string>

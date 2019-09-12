@@ -30,8 +30,6 @@ public class ScrobbleHistoryFragment extends Fragment {
   private ScroballDB scroballDB;
   private List<Scrobble> scrobbles = new ArrayList<>();
   private LongSparseArray<Scrobble> scrobbleMap = new LongSparseArray<>();
-  private TextView noHistoryTextView;
-  private TextView noHistoryTextDescView;
 
   @Nullable
   @Override
@@ -48,11 +46,7 @@ public class ScrobbleHistoryFragment extends Fragment {
     ListView listView = rootView.findViewById(R.id.scrobble_history_list_view);
     listView.setAdapter(adapter);
 
-    noHistoryTextView = (TextView) rootView.findViewById(R.id.no_history);
-    noHistoryTextDescView = (TextView) rootView.findViewById(R.id.no_history_desc);
-
-
-    listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+    /**listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
       @Override
       public boolean onItemLongClick(AdapterView<?> parent, View view,
                                      int position, long id) {
@@ -70,7 +64,7 @@ public class ScrobbleHistoryFragment extends Fragment {
                 .show();
         return false;
       }
-    });
+    });*/
     return rootView;
   }
 

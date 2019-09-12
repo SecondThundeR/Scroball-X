@@ -29,11 +29,10 @@
 
     <!-- ListView settings -->
     <string name="pref_header_clear_listview">Clear listening history</string>
-    <string name="clear_listview_question">Do you really want to clear your listening history?/n</string>
+    <string name="clear_listview_question">Do you really want to clear your listening history?
+        \nApp will be rebooted automatically</string>
     <string name="pref_header_clear_listview_item">Clear</string>
-    <string name="clear_listview_item_question">Do you really want to clear track from listening history?
-    \nApp will be rebooted automatically</string>
-    <string name="info_toast">Unfortunately, the function is still under development :(</string>
+    <string name="clear_listview_item_question">Do you really want to clear track from listening history?</string>
 
     <!-- Strings related to login -->
     <string name="title_activity_login">Sign in</string>
@@ -76,7 +75,7 @@
 
     <!-- Strings related to AlertDialog "About app" -->
     <string name="pref_header_about_app">About app</string>
-    <string name="app_name_pref">Scroball X 2.3 (build 7)</string>
+    <string name="app_name_pref">Scroball X 2.3</string>
     <string name="app_desc">This is a modification of Scroball by Peter Josling that aims at visual changes.
 \n\nThis mod provides an ad-free experience, a more perfect design with guidelines of Material Design 2, a dark theme and other visual improvements
 \n\nThe developers of the mod are not responsible for the problems on the backend side (Connections to last.fm, scrobbler operation, etc.)</string>
