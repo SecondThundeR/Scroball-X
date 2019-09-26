@@ -72,7 +72,7 @@
 
     <!-- Радка для дыялогавага акна "Аб праграме" -->
     <string name="pref_header_about_app">Аб праграме</string>
-    <string name="app_name_pref">Scroball X 2.3</string>
+    <string name="app_name_pref">Scroball X 2.3.2</string>
     <string name="app_desc">Гэта мадыфікацыя Scroball ад Peter Josling, якая нацэлена на візуальныя змены
         \n\nУ дадзеным модзе выразаная рэклама, дададзены больш дасканалы дызайн у стылях Material Design 2, ўкаранёна цёмная тэма і выкананы іншыя візуальныя выпраўлення
         \n\nРаспрацоўшчыкі мода не адказваюць за праблемы з боку бэкэндам (Падлучэння да last.fm, праца скробблера і іншае)</string>

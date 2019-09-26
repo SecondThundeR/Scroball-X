@@ -75,7 +75,7 @@
 
     <!-- Strings related to AlertDialog "About app" -->
     <string name="pref_header_about_app">About app</string>
-    <string name="app_name_pref">Scroball X 2.3</string>
+    <string name="app_name_pref">Scroball X 2.3.2</string>
     <string name="app_desc">This is a modification of Scroball by Peter Josling that aims at visual changes.
 \n\nThis mod provides an ad-free experience, a more perfect design with guidelines of Material Design 2, a dark theme and other visual improvements
 \n\nThe developers of the mod are not responsible for the problems on the backend side (Connections to last.fm, scrobbler operation, etc.)</string>
