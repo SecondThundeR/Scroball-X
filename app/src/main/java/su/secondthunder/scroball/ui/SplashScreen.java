@@ -23,6 +23,7 @@ public class SplashScreen extends Activity {
         setContentView(R.layout.activity_splash_screen);
         PreferenceManager.setDefaultValues(this, R.xml.pref_notification, false);
         PreferenceManager.setDefaultValues(this, R.xml.pref_players, false);
+        PreferenceManager.setDefaultValues(this, R.xml.pref_about, false);
         application = (ScroballApplication) getApplication();
         enableNotificationAccess();
     }

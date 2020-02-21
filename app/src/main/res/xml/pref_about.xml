@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <Preference
+            android:key="icon"
+            android:icon="@drawable/ic_aboutapp_logo"
+            android:title="@string/app_name_pref"
+            android:summary="@string/app_desc" />
+    <PreferenceCategory android:title="Разработчики">
+        <Preference
+            android:key="dev_secondthunder"
+            android:icon="@drawable/ic_person"
+            android:title="@string/first_dev"
+            android:summary="@string/first_dev_sum">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="tg://resolve?domain=SecondThundeR"/>
+        </Preference>
+        <Preference
+            android:key="dev_iTaysonLab"
+            android:icon="@drawable/ic_person"
+            android:title="@string/second_dev"
+            android:summary="@string/second_dev_sum">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="tg://resolve?domain=iTaysonLab"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Полезные ссылки">
+        <Preference
+            android:key="sbx_telegram"
+            android:icon="@drawable/ic_telegram"
+            android:title="@string/sbx_telegram"
+            android:summary="@string/sbx_telegram_sum">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="tg://resolve?domain=scroball_x"/>
+        </Preference>
+        <Preference
+            android:key="modpub_telegram"
+            android:icon="@drawable/ic_telegram"
+            android:title="@string/modpub_telegram"
+            android:summary="@string/modpub_telegram_sum">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="tg://resolve?domain=modpub"/>
+        </Preference>
+        <Preference
+            android:key="sbx_github"
+            android:icon="@drawable/ic_github"
+            android:title="@string/sbx_github"
+            android:summary="@string/sbx_github_sum">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/SecondThundeR/Scroball-X"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -7,5 +7,6 @@
 /build
 /captures
 .idea
+.github
 /app/build
 /app/release

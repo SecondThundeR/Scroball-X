@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="su.secondthunder.scroball"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="su.secondthunder.scroball">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="com.android.vending.BILLING"/>
 
     <application
         android:name="su.secondthunder.scroball.ScroballApplication"
@@ -59,6 +58,10 @@
         <activity
             android:name="su.secondthunder.scroball.ui.prefs.PlayerPreferenceActivity"
             android:label="@string/pref_header_players"
+            android:parentActivityName="su.secondthunder.scroball.ui.prefs.ModernPreferenceActivity" />
+        <activity
+            android:name="su.secondthunder.scroball.ui.prefs.AboutAppActivity"
+            android:label="@string/pref_header_about_app"
             android:parentActivityName="su.secondthunder.scroball.ui.prefs.ModernPreferenceActivity" />
     </application>
 

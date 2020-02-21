@@ -13,12 +13,12 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/now_playing_art_card"
-            android:layout_width="280dp"
-            android:layout_height="280dp"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
             android:layout_centerHorizontal="true"
-            android:layout_margin="16dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="16dp">
+            android:layout_margin="12dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="12dp">
 
             <ImageView
                 android:id="@+id/now_playing_art"
@@ -35,8 +35,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/now_playing_art_card"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
             android:text="@string/track"
             android:textAlignment="center"
             android:textStyle="bold" />
@@ -47,8 +47,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/now_playing_title"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
             android:text="@string/album"
             android:textAlignment="center" />
     </RelativeLayout>

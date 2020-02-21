@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_logo">Лого приложения</string>
+
     <!-- Вкладки на главном экране -->
     <string name="tab_now_playing">Сейчас играет</string>
     <string name="tab_history">История</string>
@@ -22,7 +24,7 @@
 
     <!-- Настройки темы -->
     <string name="pref_header_dark_theme">Тема приложения</string>
-    <string name="pref_auto">Автоматически</string>
+    <string name="pref_auto">По умолчанию</string>
     <string name="pref_light_theme">Светлая</string>
     <string name="pref_dark_theme">Тёмная</string>
 
@@ -55,7 +57,7 @@
     <string name="nothing_playing">Сейчас ничего не играет</string>
     <string name="nothing_playing_desc">Пора послушать какую-то музыку</string>
     <string name="track">Трек</string>
-    <string name="album">Артист • Альбом</string>
+    <string name="album">Артист (Альбом)</string>
     <string name="albumart_desc">Обложка альбома</string>
 
     <!-- Экран - История -->
@@ -70,13 +72,15 @@
     <string name="notification_action_love">Лайкнуть</string>
     <string name="notification_action_loved">Лайкнуто</string>
 
-    <!-- Строки для диалогового окна "О приложении" -->
+    <!-- Строки для "О приложении" -->
     <string name="pref_header_about_app">О приложении</string>
-    <string name="app_name_pref">Scroball X 2.3.2</string>
-    <string name="app_desc">Это модификация Scroball от Peter Josling, которая нацелена на визуальные изменения
-        \n\nВ данном моде вырезана реклама, добавлен более совершенный дизайн в стилях Material Design 2, внедрена тёмная тема и выполнены прочие визуальные исправления
-        \n\nРазработчики мода не отвечают за проблемы на стороне бэкенда (Подключения к last.fm, работа скробблера и прочее)</string>
-    <string name="mod_devs">Разработчики: <a href='https:t.me/SecondThundeR'>@SecondThundeR</a> / <a href='https:t.me/iTaysonLab'>@iTaysonLab</a></string>
-    <string name="alert_close">Закрыть</string>
-    <string name="app_logo">Лого приложения</string>
+    <string name="app_desc">Модификация Scroball от Peter Josling, которая включает в себя визуальные изменения и исправления</string>
+    <string name="first_dev_sum">Инициализатор проекта\nГлавный дизайнер</string>
+    <string name="second_dev_sum">Разработчик\nВнедрил тёмную тему и всякие полезные штучки</string>
+    <string name="sbx_telegram">Канал в Telegram</string>
+    <string name="sbx_telegram_sum">Здесь можно узнать что-нибудь интересное</string>
+    <string name="modpub_telegram">Канал modpub</string>
+    <string name="modpub_telegram_sum">Канал с модами на разные приложения\nСпасибо также за распространение этого мода!</string>
+    <string name="sbx_github">Исходный код на Github</string>
+    <string name="sbx_github_sum">Буду рад помощи и полезным советам</string>
 </resources>

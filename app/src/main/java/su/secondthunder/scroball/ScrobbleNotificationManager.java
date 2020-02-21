@@ -16,7 +16,6 @@ import android.os.Build;
 
 import com.google.common.base.Joiner;
 import com.google.common.collect.ImmutableList;
-import su.secondthunder.scroball.R;
 
 import su.secondthunder.scroball.db.ScroballDB;
 import su.secondthunder.scroball.ui.MainActivity;
@@ -123,7 +122,7 @@ public class ScrobbleNotificationManager {
     if (scroballDB.isLoved(track)) {
       notification
           .addAction(
-              R.drawable.ic_favorite_black_24dp,
+              R.drawable.ic_favorite,
               context.getString(R.string.notification_action_loved),
               null);
     } else {
@@ -135,7 +134,7 @@ public class ScrobbleNotificationManager {
 
       notification
           .addAction(
-              R.drawable.ic_favorite_black_24dp,
+              R.drawable.ic_favorite,
               context.getString(R.string.notification_action_love),
               lovePendingIntent);
     }

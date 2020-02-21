@@ -6,11 +6,19 @@
     android:orientation="vertical"
     tools:context="su.secondthunder.scroball.ui.LoginActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="144dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/ic_splashlogo"
+        android:contentDescription="@string/app_logo" />
+
     <TextView
         android:id="@+id/login_welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="24dp"
         android:layout_marginBottom="12dp"
         android:text="@string/login_welcome"
         android:textColor="?android:textColorPrimary"

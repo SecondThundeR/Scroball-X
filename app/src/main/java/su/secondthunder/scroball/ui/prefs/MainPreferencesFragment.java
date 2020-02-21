@@ -68,15 +68,9 @@ public class MainPreferencesFragment extends PreferenceFragmentCompat {
             return false;
         });
         findPreference("about_app").setOnPreferenceClickListener(preference -> {
-            View view = getLayoutInflater().inflate(R.layout.about_app_dialog, null);
-            TextView mod_devs = view.findViewById(R.id.mod_devs);
-            mod_devs.setText(R.string.mod_devs);
-            mod_devs.setMovementMethod(LinkMovementMethod.getInstance());
-            new MaterialAlertDialogBuilder(getContext())
-                    .setTitle(R.string.pref_header_about_app)
-                    .setView(view)
-                    .setNegativeButton(R.string.alert_close, null)
-                    .show();
+            Intent intent = new Intent(getActivity(), AboutAppActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
             return false;
         });
     }

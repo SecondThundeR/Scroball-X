@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name" translatable="false">Scroball X</string>
+    <string name="app_logo">App logo</string>
 
     <!-- Strings related to Settings -->
     <string name="saved_session_key" translatable="false">sessionKey</string>
 
     <!-- Main window tabs -->
-    <string name="tab_now_playing">Now Playing</string>
+    <string name="tab_now_playing">Now playing</string>
     <string name="tab_history">History</string>
 
     <!-- Enabled players settings -->
@@ -57,7 +58,7 @@
     <string name="nothing_playing">Nothing playing</string>
     <string name="nothing_playing_desc">It\'s time to listen to some music</string>
     <string name="track">Track</string>
-    <string name="album">Artist • Album</string>
+    <string name="album">Artist (Album)</string>
     <string name="albumart_desc">Album cover</string>
 
     <!-- Strings related to the history screen -->
@@ -73,13 +74,19 @@
     <string name="notification_action_love">Love</string>
     <string name="notification_action_loved">Loved</string>
 
-    <!-- Strings related to AlertDialog "About app" -->
+    <!-- Strings related to "About app" -->
     <string name="pref_header_about_app">About app</string>
-    <string name="app_name_pref">Scroball X 2.3.2</string>
-    <string name="app_desc">This is a modification of Scroball by Peter Josling that aims at visual changes.
-\n\nThis mod provides an ad-free experience, a more perfect design with guidelines of Material Design 2, a dark theme and other visual improvements
-\n\nThe developers of the mod are not responsible for the problems on the backend side (Connections to last.fm, scrobbler operation, etc.)</string>
-    <string name="mod_devs">Developers: <a href='https:t.me/SecondThundeR'>@SecondThundeR</a> / <a href='https:t.me/iTaysonLab'>@iTaysonLab</a></string>
-    <string name="alert_close">Close</string>
-    <string name="app_logo">App Logo</string>
+    <string name="app_name_pref" translatable="false">Scroball X 3.0</string>
+    <string name="app_desc">Modification of Scroball by Peter Josling, which includes visual changes and fixes</string>
+    <string name="first_dev" translatable="false">SecondThundeR</string>
+    <string name="first_dev_sum">Project Initiator\nChief Designer</string>
+    <string name="second_dev" translatable="false">iTaysonLab</string>
+    <string name="second_dev_sum">Developer\nImplemented a dark theme and all sorts of useful things</string>
+    <string name="sbx_telegram">Telegram Channel</string>
+    <string name="sbx_telegram_sum">Here you can find out something interesting.</string>
+    <string name="modpub_telegram">Modpub channel</string>
+    <string name="modpub_telegram_sum">Channel with mods for different applications\nThanks also for distributing this mod!</string>
+    <string name="sbx_github">Source code on Github</string>
+    <string name="sbx_github_sum">I will be glad to help and useful tips.</string>
+
 </resources>

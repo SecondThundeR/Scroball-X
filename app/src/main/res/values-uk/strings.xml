@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_logo">Лого програми</string>
+
     <!-- Виберіть на головному екрані -->
     <string name="tab_now_playing">Зараз грає</string>
     <string name="tab_history">Історія</string>
@@ -56,7 +58,7 @@
     <string name="nothing_playing">Зараз нічого не грає</string>
     <string name="nothing_playing_desc">Пора послухати якусь музику</string>
     <string name="track">Пісня</string>
-    <string name="album">Артист • Альбом</string>
+    <string name="album">Артист (Альбом)</string>
     <string name="albumart_desc">Обкладинка альбому</string>
 
     <!-- Екран - Історія -->
@@ -71,14 +73,15 @@
     <string name="notification_action_love">Лайкнути</string>
     <string name="notification_action_loved">Улюблена</string>
 
-    <!-- Рядки для діалогового вікна "Про програму" -->
+    <!-- Рядки для "Про програму" -->
     <string name="pref_header_about_app">Про програму</string>
-    <string name="app_name_pref">Scroball X 2.3.2</string>
-    <string name="app_desc">Це модифікація Scroball від Peter Josling, яка націлена на візуальні зміни
-        \n\nВ даному моді вирізана реклама, доданий більш досконалий дизайн в стилі Material Design 2, впроваджена темна тема і виконані інші візуальні виправлення
-        \n\nРозробники мода не відповідають за проблеми на стороні бекенд (Підключення до last. fm, робота скроблер та інше)</string>
-    <string name="mod_devs">Розробники: <a href="https:t.me/SecondThundeR">@SecondThundeR</a> / <a href="https:t.me/iTaysonLab">@iTaysonLab</a></string>
-    <string name="alert_close">Закрити</string>
-    <string name="app_logo">Лого програми</string>
-
+    <string name="app_desc">Модифікація Scroball Пітера Джослінга, яка включає візуальні зміни та виправлення</string>
+    <string name="first_dev_sum">Ініціалізатор проекту\nГоловний дизайнер</string>
+    <string name="second_dev_sum">Розробник\nЗапровадив темну тему і всякі корисні штучки</string>
+    <string name="sbx_telegram">Канал в Telegram</string>
+    <string name="sbx_telegram_sum">Тут можна дізнатися що-небудь цікаве</string>
+    <string name="modpub_telegram">Канал modpub</string>
+    <string name="modpub_telegram_sum">Канал з модами на різні додатки\nДякую також за поширення цього мода!</string>
+    <string name="sbx_github">Вихідний код на Github</string>
+    <string name="sbx_github_sum">Буду радий допомоги та корисних порад</string>
 </resources>

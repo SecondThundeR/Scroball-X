@@ -47,19 +47,19 @@
             android:id="@+id/scrobble_history_item_success_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_done_black_24dp"
+            android:src="@drawable/ic_done"
             android:tint="@color/successGreen"/>
         <ImageView
             android:id="@+id/scrobble_history_item_pending_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_sync_black_24dp"
+            android:src="@drawable/ic_sync"
             android:visibility="gone"/>
         <ImageView
             android:id="@+id/scrobble_history_item_warning_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_error_outline_black_24dp"
+            android:src="@drawable/ic_error"
             android:tint="@color/warningYellow"
             android:visibility="gone"/>
     </LinearLayout>

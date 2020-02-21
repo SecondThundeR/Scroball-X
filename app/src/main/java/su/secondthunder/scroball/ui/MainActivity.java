@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import com.google.common.collect.ImmutableList;
 import su.secondthunder.scroball.R;
 import su.secondthunder.scroball.ScroballApplication;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity{
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         break;
     }
+
     setContentView(R.layout.activity_main);
 
     application = (ScroballApplication) getApplication();

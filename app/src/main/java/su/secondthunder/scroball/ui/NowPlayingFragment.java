@@ -69,7 +69,7 @@ public class NowPlayingFragment extends Fragment {
     if (track.isValid()) {
       String artistText = track.artist();
       if (track.album().isPresent()) {
-        artistText = String.format("%s • %s", track.artist(), track.album().get());
+        artistText = String.format("%s (%s)", track.artist(), track.album().get());
       }
 
       titleTextView.setText(track.track());
