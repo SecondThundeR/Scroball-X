@@ -12,3 +12,5 @@
 /app/release
 .idea/modules.xml
 .idea/caches/build_file_checksums.ser
+.project
+.settings/org.eclipse.buildship.core.prefs
