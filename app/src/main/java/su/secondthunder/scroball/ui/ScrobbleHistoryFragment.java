@@ -1,6 +1,5 @@
 package su.secondthunder.scroball.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -8,12 +7,9 @@ import androidx.collection.LongSparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.common.eventbus.Subscribe;
 import su.secondthunder.scroball.R;
 import su.secondthunder.scroball.ScroballApplication;
@@ -57,7 +53,7 @@ public class ScrobbleHistoryFragment extends Fragment {
                         android.R.string.yes,
                         (dialog, whichButton) -> {
                           adapter.remove(scrobbles.get(position));
-                          //scroballDB.clearItem(id);
+                          //scroballDB.clearScrobble();
                           adapter.notifyDataSetChanged();
                         })
                 .setNegativeButton(android.R.string.no, null)
