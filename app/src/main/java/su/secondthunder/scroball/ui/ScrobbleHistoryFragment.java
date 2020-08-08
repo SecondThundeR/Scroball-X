@@ -41,26 +41,6 @@ public class ScrobbleHistoryFragment extends Fragment {
             getContext(), android.R.layout.simple_list_item_1, scrobbles);
     ListView listView = rootView.findViewById(R.id.scrobble_history_list_view);
     listView.setAdapter(adapter);
-
-    /**listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-      @Override
-      public boolean onItemLongClick(AdapterView<?> parent, View view,
-                                     int position, long id) {
-        new MaterialAlertDialogBuilder(getContext())
-                .setTitle(R.string.pref_header_clear_listview_item)
-                .setMessage(R.string.clear_listview_item_question)
-                .setPositiveButton(
-                        android.R.string.yes,
-                        (dialog, whichButton) -> {
-                          adapter.remove(scrobbles.get(position));
-                          //scroballDB.clearScrobble();
-                          adapter.notifyDataSetChanged();
-                        })
-                .setNegativeButton(android.R.string.no, null)
-                .show();
-        return false;
-      }
-    });*/
     return rootView;
   }
 
