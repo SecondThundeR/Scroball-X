@@ -76,7 +76,7 @@
 
     <!-- Strings related to "About app" -->
     <string name="pref_header_about_app">About app</string>
-    <string name="app_name_pref" translatable="false">Scroball X 3.0.1</string>
+    <string name="app_name_pref" translatable="false">Scroball X 3.0.2</string>
     <string name="app_desc">Modification of Scroball by Peter Josling, which includes visual changes and fixes</string>
     <string name="first_dev" translatable="false">SecondThundeR</string>
     <string name="first_dev_sum">Project Initiator\nChief Designer</string>

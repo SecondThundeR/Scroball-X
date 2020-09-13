@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scroball X-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scroball X-app.iml" group="Scroball X/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scroball-X-Scroball_X.iml" filepath="$PROJECT_DIR$/.idea/modules/Scroball-X-Scroball_X.iml" group="Scroball_X" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scroball_X.iml" filepath="$PROJECT_DIR$/.idea/modules/Scroball_X.iml" group="Scroball_X" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Scroball X/app" />
     </modules>
