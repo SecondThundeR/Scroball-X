@@ -84,4 +84,8 @@
     <string name="modpub_telegram_sum">Канал з модами на різні додатки\nДякую також за поширення цього мода!</string>
     <string name="sbx_github">Вихідний код на Github</string>
     <string name="sbx_github_sum">Буду радий допомоги та корисних порад</string>
+    <string name="applogo_cd">Логотип додатки</string>
+    <string name="ic_done_cd">Значок \"Успішна синхронізація\"</string>
+    <string name="ic_sync_cd">Значок \"Синхронізація в процесі\"</string>
+    <string name="ic_error_cd">Значок \"Збій синхронізації\"</string>
 </resources>

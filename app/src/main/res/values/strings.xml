@@ -89,4 +89,9 @@
     <string name="sbx_github">Source code on Github</string>
     <string name="sbx_github_sum">I will be glad to help and useful tips.</string>
 
+    <!-- Content Description Strings -->
+    <string name="applogo_cd">App Logo</string>
+    <string name="ic_done_cd">Sync Done Icon</string>
+    <string name="ic_sync_cd">Sync In Progress Icon</string>
+    <string name="ic_error_cd">Sync Failed Icon</string>
 </resources>

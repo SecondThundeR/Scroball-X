@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,19 +25,22 @@
             android:maxLines="1"
             android:text="Title"
             android:textColor="?android:textColorPrimary"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
         <TextView
             android:id="@+id/scrobble_history_item_artist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Artist"
             android:ellipsize="end"
-            android:maxLines="1"/>
+            android:maxLines="1"
+            tools:ignore="HardcodedText" />
         <TextView
             android:id="@+id/scrobble_history_item_timestamp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Timestamp"/>
+            android:text="Timestamp"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/scrobble_history_item_icon_group"
@@ -48,19 +53,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_done"
-            android:tint="@color/successGreen"/>
+            app:tint="@color/successGreen"
+            android:contentDescription="@string/ic_done_cd" />
         <ImageView
             android:id="@+id/scrobble_history_item_pending_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_sync"
-            android:visibility="gone"/>
+            android:visibility="gone"
+            android:contentDescription="@string/ic_sync_cd"/>
         <ImageView
             android:id="@+id/scrobble_history_item_warning_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_error"
-            android:tint="@color/warningYellow"
-            android:visibility="gone"/>
+            app:tint="@color/warningYellow"
+            android:visibility="gone"
+            android:contentDescription="@string/ic_error_cd"/>
     </LinearLayout>
 </RelativeLayout>
